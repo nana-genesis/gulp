@@ -1,0 +1,19 @@
+# Dependências
+node_modules/
+dist/
+.env
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+
+# Arquivos de build
+*.map

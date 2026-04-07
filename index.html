@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="description" content="Projeto demonstrando automação de tarefas com Gulp: SASS, compressão de imagens, minificação JS e live reload">
+  <meta name="author" content="Seu Nome">
+  <title>Gulp Expert - Automação Profissional</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <h1> Gulp Expert</h1>
+      <p>Automação de tarefas profissional para front-end</p>
+    </div>
+  </header>
+  
+  <main class="container">
+    <!-- Seção O que faz -->
+    <section class="features">
+      <h2> O que este projeto faz?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"></div>
+          <h3>SASS + CSS</h3>
+          <p>Compila SASS para CSS e minifica automaticamente</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🖼</div>
+          <h3>Imagens</h3>
+          <p>Comprime imagens sem perda significativa de qualidade</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"></div>
+          <h3>JavaScript</h3>
+          <p>Concatena e minifica arquivos JS em um bundle</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"></div>
+          <h3>Live Reload</h3>
+          <p>Atualiza o navegador automaticamente ao salvar</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Galeria de Imagens -->
+    <section class="gallery">
+      <h2> Galeria de Imagens (comprimidas pelo Gulp)</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/foto1.jpg" alt="Imagem exemplo 1" onerror="this.src='https://via.placeholder.com/300x200?text=Imagem+1'">
+          <p>Imagem 1 - JPG comprimido</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/foto2.png" alt="Imagem exemplo 2" onerror="this.src='https://via.placeholder.com/300x200?text=Imagem+2'">
+          <p>Imagem 2 - PNG comprimido</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/foto3.jpg" alt="Imagem exemplo 3" onerror="this.src='https://via.placeholder.com/300x200?text=Imagem+3'">
+          <p>Imagem 3 - JPG otimizado</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/foto4.png" alt="Imagem exemplo 4" onerror="this.src='https://via.placeholder.com/300x200?text=Imagem+4'">
+          <p>Imagem 4 - PNG otimizado</p>
+        </div>
+      </div>
+      <p class="gallery-note">⚠ Coloque suas imagens na pasta <code>src/images/</code> com os nomes: foto1.jpg, foto2.png, foto3.jpg, foto4.png</p>
+    </section>
+
+    <!-- Seção Interativa -->
+    <section class="interactive">
+      <h2> Teste o JavaScript</h2>
+      <button class="button" id="meuBotao"> Clique aqui para uma surpresa</button>
+      <div id="mensagem" class="mensagem" style="display: none;"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 - Projeto Gulp | Automação de tarefas</p>
+    <p>Desenvolvido com Gulp, SASS, BrowserSync</p>
+  </footer>
+  
+  <script src="js/bundle.js"></script>
+</body>
+</html>
